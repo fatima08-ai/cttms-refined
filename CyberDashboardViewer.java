@@ -107,8 +107,34 @@ public class CyberDashboardViewer {
             }
         }
     void onLogout(){
-        backend.getAuthManager().endSession(); currentUser=null;
-        loginPanel.reset(); cardLayout.show(cardContainer,"LOGIN");
+        backend.getAuthManager().endSession(); 
+        currentUser = null;
+        
+        if (loginPanel != null) {
+            loginPanel.reset();
+        }
+        
+        if (this.dashboardPanel != null) {
+            this.dashboardPanel.removeAll();
+            this.dashboardPanel = new DashboardPanel(this); 
+        }
+        SwingUtilities.invokeLater(() -> {
+            if (this.mainFrame != null) {
+                this.mainFrame.getContentPane().removeAll();
+                
+                if (this.cardContainer != null && this.cardLayout != null) {
+                    this.cardContainer.removeAll();
+                    this.cardContainer.add(loginPanel, "LOGIN");
+                    this.cardContainer.add(dashboardPanel, "DASHBOARD");
+                    
+                    this.cardLayout.show(this.cardContainer, "LOGIN");
+                    this.mainFrame.getContentPane().add(this.cardContainer);
+                }
+                this.mainFrame.invalidate();
+                this.mainFrame.validate();
+                this.mainFrame.repaint();
+            }
+        });
     }
     void toggleTheme(){
         boolean nowDark=!AppCoordinator.ThemeConstants.isDark();

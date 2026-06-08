@@ -2,3 +2,37 @@
 [2026-06-08 05:16:26.819][INFO] [DDoS — Distributed Denial of Service] id=DD-613 sev=9[CRITICAL]
 [2026-06-08 05:16:26.820][CRITICAL] Sim END: DDoS — Distributed Denial of Service | Breached=true | Health=3% | Sev=9[CRITICAL]
 [2026-06-08 05:16:26.822][CRITICAL] [2026-06-08 05:16:26.818][THREAT-DETECTED] Sev=9 | DDoS BREACH [CRITICAL] — 192.168.5.212
+[2026-06-08 21:44:04.112][INFO] CTTMS v3.1.0 initialised — all subsystems online
+[2026-06-08 21:44:04.283][INFO] AppCoordinator launched CTTMS desktop UI — theme: DARK
+[2026-06-08 22:27:43.240][INFO] CTTMS v3.1.0 initialised — all subsystems online
+[2026-06-08 22:27:43.252][INFO] AppCoordinator launched CTTMS desktop UI — theme: DARK
+[2026-06-08 22:28:07.091][INFO] Sim START: DDoS — Distributed Denial of Service | Sev=9[CRITICAL] | by=j.novak
+[2026-06-08 22:28:07.102][INFO] [DDoS — Distributed Denial of Service] id=DD-204 sev=9[CRITICAL]
+[2026-06-08 22:28:07.109][CRITICAL] Sim END: DDoS — Distributed Denial of Service | Breached=true | Health=3% | Sev=9[CRITICAL]
+[2026-06-08 22:28:07.121][CRITICAL] [2026-06-08 22:28:07.097][THREAT-DETECTED] Sev=9 | DDoS BREACH [CRITICAL] — 192.168.0.156
+[2026-06-08 22:28:23.999][INFO] Sim START: MITM — Man-in-the-Middle | Sev=7[HIGH] | by=j.novak
+[2026-06-08 22:28:24.004][INFO] [MITM — Man-in-the-Middle] id=MI-294 sev=7[HIGH]
+[2026-06-08 22:28:24.006][CRITICAL] Sim END: MITM — Man-in-the-Middle | Breached=true | Health=9% | Sev=7[HIGH]
+[2026-06-08 22:28:24.026][CRITICAL] [2026-06-08 22:28:24.003][THREAT-DETECTED] Sev=7 | MITM BREACH [HIGH] — 10.0.4.0/24
+[2026-06-08 22:28:35.469][INFO] Sim START: SQLi — SQL Injection | Sev=8[HIGH] | by=j.novak
+[2026-06-08 22:28:35.473][INFO] [SQLi — SQL Injection] id=SQ-473 sev=8[HIGH]
+[2026-06-08 22:28:35.474][CRITICAL] Sim END: SQLi — SQL Injection | Breached=true | Health=4% | Sev=8[HIGH]
+[2026-06-08 22:28:35.494][CRITICAL] [2026-06-08 22:28:35.472][THREAT-DETECTED] Sev=8 | SQLi BREACH [HIGH] — table: users
+[2026-06-08 22:31:38.339][INFO] CTTMS v3.1.0 initialised — all subsystems online
+[2026-06-08 22:31:38.487][INFO] AppCoordinator launched CTTMS desktop UI — theme: DARK
+[2026-06-08 22:35:14.598][INFO] CTTMS v3.1.0 initialised — all subsystems online
+[2026-06-08 22:35:14.702][INFO] AppCoordinator launched CTTMS desktop UI — theme: DARK
+[2026-06-08 22:36:52.326][INFO] CTTMS v3.1.0 initialised — all subsystems online
+[2026-06-08 22:36:52.466][INFO] AppCoordinator launched CTTMS desktop UI — theme: DARK
+[2026-06-08 22:37:50.090][INFO] CTTMS v3.1.0 initialised — all subsystems online
+[2026-06-08 22:37:50.104][INFO] AppCoordinator launched CTTMS desktop UI — theme: DARK
+[2026-06-08 22:38:10.528][INFO] Sim START: DDoS — Distributed Denial of Service | Sev=9[CRITICAL] | by=j.novak
+[2026-06-08 22:38:10.541][INFO] [DDoS — Distributed Denial of Service] id=DD-705 sev=9[CRITICAL]
+[2026-06-08 22:38:10.549][CRITICAL] Sim END: DDoS — Distributed Denial of Service | Breached=true | Health=3% | Sev=9[CRITICAL]
+[2026-06-08 22:38:10.569][CRITICAL] [2026-06-08 22:38:10.536][THREAT-DETECTED] Sev=9 | DDoS BREACH [CRITICAL] — 192.168.6.140
+[2026-06-08 22:39:26.667][INFO] CTTMS v3.1.0 initialised — all subsystems online
+[2026-06-08 22:39:26.813][INFO] AppCoordinator launched CTTMS desktop UI — theme: DARK
+[2026-06-08 22:42:58.966][INFO] CTTMS v3.1.0 initialised — all subsystems online
+[2026-06-08 22:42:59.112][INFO] AppCoordinator launched CTTMS desktop UI — theme: DARK
+[2026-06-08 22:50:04.406][INFO] CTTMS v3.1.0 initialised — all subsystems online
+[2026-06-08 22:50:04.531][INFO] AppCoordinator launched CTTMS desktop UI — theme: DARK
